@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dream Concierge</title>
+  <title>Contact Form with Find Us Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .header a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 5px #ccc;
+    }
+
+    .form-container {
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border-radius: 5px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #FF6863;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .find-us {
+      flex-grow: 1;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .find-us h2,
+    .find-us p {
+      text-align: center;
+      margin: 5px 0;
+    }
+
+    .find-us img {
+      width: 150px;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    .footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <a href="index.html">Home</a>
+    <a href="Webpage3Wen.html">Booking</a>
+    <a href="Webpage5Syu.html">Manage Trips</a>
+    <a href="Webpage6Kai.html">Help & Support</a>
+    <a href="Webpage2Jav.html">Login</a>
+  </div>
+
+  <div class="container">
+    <div class="form-container">
+      <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="8" cols="35" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="find-us">
+      <h2>Find Us</h2>
+      <p>Email: info@dreamconcierge.com</p>
+      <p>Phone: +65 6789 0123</p>
+      <p>Address: 123 Orchard Road, #06-123, Singapore 123456</p>
+      <p>Website: www.dreamconcierge.com</p>
+      <a href="Socials.html">
+        <img src="Social.jpg" alt="Socials">
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2023 DreamConcierge, Inc. All Rights Reserved.</p>
+  </div>
+</body>
+
+</html>

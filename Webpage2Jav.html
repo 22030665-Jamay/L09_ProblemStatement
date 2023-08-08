@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dream Concierge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 900px;
+        margin-top: 20px;
+        border-radius: 10%;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        color: black;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .menu-bar {
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-bar a {
+        font-size: 30px;
+        color: black;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+    .logo {
+        margin-right: 15px;
+    }
+
+    .styled-img {
+        width: 50%;
+        height: auto;
+        margin-left: 150px;
+        border-radius: 25px;
+    }
+
+    .container {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 50%;
+        float: right;
+        text-align: center;
+        margin-left: 100px;
+        background-color: white;
+    }
+
+    .container img {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .article-container {
+        display: flex;
+    }
+
+    .form-container {
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    input[type="Submit"] {
+        background-color: rgb(28, 245, 28);
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+        transition: background-color 0.8s ease, color 0.4s ease;
+    }
+
+    input[type="Submit"]:hover {
+        background-color: rgb(37, 218, 37);
+        color: white;
+        font-weight: bold;
+    }
+
+    label {
+        display: inline-block;
+        width: 480px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .bold {
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+</style>
+
+<body>
+
+    <div class="menu-bar">
+        <img src="images/Logo.png" alt="Logo">
+        <a href="index.html">Home</a>
+        <a href="Webpage3Wen.html">Booking</a>
+        <a href="Webpage5Syu.html">Manage Trips</a>
+        <a href="Webpage6Kai.html">Help & Support</a>
+        <a href=""><img src="Profile.jpg" alt="Profile"  width="180" height="50">
+        </a>
+    </div>
+
+    <section>
+        <div class="article-container">
+            <div class="container">
+                <p class="bold">Login to IGFS</p>
+                <div class="form-container">
+                    <form>
+                        <label for="email">User Email:</label><br>
+                        <input type="text" id="email" name="email" required><br>
+                        <label for="pw">Password:</label><br>
+                        <input type="password" id="pw" name="pw" required><br><br>
+                        <input type="Submit" value="Login"><br><br>
+                    </form>
+                </div>
+            </div>
+
+            <div>
+                <img src="LoginQR.png" class="styled-img">
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <div class="footer">
+        <p>&copy; 2023 DreamConcierge, Inc. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>
